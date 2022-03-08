@@ -1,0 +1,41 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .cardlist__movies {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    -webkit-box-shadow: 5px 5px 32px 5px rgba(0,0,0,0.43); 
+    box-shadow: 5px 5px 32px 5px rgba(0,0,0,0.43);
+  }
+  .card {
+    margin-left: 20px;
+    border-radius: 4px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .movie__image {
+    height: 500px;
+    width: 350px;
+    border-radius: 10px;
+  }
+  
+  .flex__card {
+    background-color: rgb(14, 13, 13);
+    color: #f6cd61 ;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  
+  .title{
+    color: #050401 ;
+  text-align:center
+  }
+  .container{
+    padding:2px 10px
+  }
